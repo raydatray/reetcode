@@ -50,3 +50,17 @@ class Solution:
                 p2 += 1
 
         return curr if total % 2 else (curr + prev) / 2
+
+
+def test_one():
+    solution = Solution()
+    result = solution.find_median_of_two_sorted_arrays([1, 3], [2])
+
+    assert result == 2.0
+
+
+def test_two():
+    solution = Solution()
+    result = solution.find_median_of_two_sorted_arrays([1, 2], [3, 4])
+
+    assert result == 2.5
