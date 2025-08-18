@@ -13,3 +13,5 @@ o  ef1f9d24ca  Wednesday at 21:36  raydatray  #2
 │  delete a readme
 ~
 ```
+
+use `sl pr s -s` NOT `sl ghstack` (ts does NOT work)
