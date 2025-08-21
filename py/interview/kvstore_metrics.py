@@ -46,7 +46,7 @@ class KVStore:
         return sum(self.get_buckets) / self.window_seconds
 
     def _get_bucket_idx(self, curr_time_int: int) -> int:
-        return curr_time_int & self.window_seconds
+        return curr_time_int % self.window_seconds
 
     def _update_buckets(self, curr_time_int: int):
         if curr_time_int - self.last_update >= self.window_seconds:
