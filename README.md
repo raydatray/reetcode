@@ -15,3 +15,5 @@ o  ef1f9d24ca  Wednesday at 21:36  raydatray  #2
 ```
 
 use `sl pr s -s` NOT `sl ghstack` (ts does NOT work)
+
+uv, ruff, pyrefly testing
