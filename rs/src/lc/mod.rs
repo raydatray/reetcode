@@ -1,3 +1,6 @@
+#[path = "362_hit_counter.rs"]
+mod hit_counter;
+
 #[path = "767_reorganize_string.rs"]
 mod reorganize_string;
 
